@@ -4,6 +4,6 @@
 
 [resource]
 
-class_name = "TheSimple"
+class_name = "SimpleSprite"
 library = ExtResource( 1 )
 
