@@ -45,3 +45,5 @@ export_presets.cfg
 .directory
 *~
 *.os
+
+.DS_Store
