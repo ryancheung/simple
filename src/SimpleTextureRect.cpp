@@ -13,4 +13,6 @@ void SimpleTextureRect::_ready()
     owner->set_texture(imageTexture);
     owner->set_name(String("Resource name- The created texture from cpp!!"));
     Godot::print(owner->get_name());
+
+    owner->set_position(Vector2(240,240));
 }

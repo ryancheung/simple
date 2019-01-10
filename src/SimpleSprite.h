@@ -25,7 +25,9 @@ public:
     void _process(float delta) {
         time_passed += delta;
 
-        Vector2 new_position = Vector2(10.0 + (10.0 * sin(time_passed * 2.0)), 50.0 + (10.0 * cos(time_passed * 1.5)));
+        Vector2 current_position = owner->get_position();
+
+        Vector2 new_position = Vector2(current_position.x + (2 * sin(time_passed * 2.0)), current_position.y + (2 * cos(time_passed * 1.5)));
 
         owner->set_position(new_position);
     }
